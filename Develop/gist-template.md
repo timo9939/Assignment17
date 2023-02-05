@@ -1,12 +1,29 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+This is the tutorial that illustrating and explaning what is regex and how does it work. Example will be given with clear explanation.
 
-## Summary
+## 📝**Summary**
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex stands for Regeular Expression. It is the pattern for matching character and number combination in strings. Also it can be used in the validation such as email input validation. 
 
-## Table of Contents
+<br>
+Regex is a case-sensitive language. The criteria must be strict when you use it to match the words. Below is the example to be illustraed in this tutorial
+
+<br>
+
+Example:
+<br>
+
+```
+/^([a-z0-9_\.-]+) @([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
+
+<br>
+
+
+
+
+## 📂**Table of Contents**
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
@@ -20,30 +37,46 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
-## Regex Components
+## **Regex Components**
+There are 2 ways to create regex components which are using the pair of slash and pair of quotation. The examples are given below :
 
-### Anchors
+`1. Using a pair of slash ` (//)
+``` 
+/[a-z0-9_\.-]/ 
+```
+`2. Using a pair of quotation`  ('')
+``` 
+'ab+c'
+```
 
-### Quantifiers
 
-### OR Operator
+### **Anchors**
+There are 2 characters in anchor which are `^` and `$`. The `^` sign is to match the string that begins with specfic string or character. For instance,`^[a-z]` means match any string with the words start with a-z character. In contrast, `$[a-z]` means match any string with the words end with a-z character.
 
-### Character Classes
 
-### Flags
 
-### Grouping and Capturing
+<br>
 
-### Bracket Expressions
+### **Quantifiers**
 
-### Greedy and Lazy Match
+### **OR Operator**
 
-### Boundaries
+### **Character Classes**
 
-### Back-references
+### **Flags**
 
-### Look-ahead and Look-behind
+### **Grouping and Capturing**
 
-## Author
+### **Bracket Expressions**
+Bracket is used to express a range of characters such as [a-z]. 
+### **Greedy and Lazy Match**
+
+### **Boundaries**
+
+### **Back-references**
+
+### **Look-ahead and Look-behind**
+
+## **Author**
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
