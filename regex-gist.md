@@ -27,24 +27,20 @@ Example:
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## **Regex Components**
 There are 2 ways to create regex components which are using the pair of slash and pair of quotation. The examples are given below :
 
-`1. Using a pair of slash ` (//)
+1. Using a pair of slash (//)
 ``` 
 /[a-z0-9_\.-]/ 
 ```
-`2. Using a pair of quotation`  ('')
+2. Using a pair of quotation ('')
 ``` 
 'ab+c'
 ```
@@ -58,25 +54,25 @@ There are 2 characters in anchor which are `^` and `$`. The `^` sign is to match
 <br>
 
 ### **Quantifiers**
-
-### **OR Operator**
+The quantifier is to constrain the number of the character. `{2,6}` is to constrain limit the string between 2 to 6 character length
+<br>
 
 ### **Character Classes**
-
-### **Flags**
+Character class is a set of characters that fulfill the input string. For example,`\d` matches any arabic numeral digit include `0-9`. 
+<br>
 
 ### **Grouping and Capturing**
+Grouping is to divide the string requirement to different parts. When it is using in the matching name, the name must be fully matched. Also, it can used to group different criteria together. `([a-z0-9_\.-]+)` means that the string must match within 0 to 9 and lowercase letter a to z. Also, it need to match `_\.-` and match the previous token between one and unlimited times. 
+<br>
 
 ### **Bracket Expressions**
-Bracket is used to express a range of characters such as [a-z]. 
-### **Greedy and Lazy Match**
-
-### **Boundaries**
-
-### **Back-references**
-
-### **Look-ahead and Look-behind**
-
+Bracket is used to express a range of characters such as `[a-z]`. `[a-z]` will match any alphabet between lowercase a to lowercase z letter. It can also write the form as `[abcdefghijklmnopqrstuvwxyz]` which is equiviliant as `[a-z]`.
+<br>
+<br>
 ## **Author**
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+I am Timothy Lau and I am a graduate of fullstack website developer. My GitHub repository and gist are linked below.
+
+### GitHub Repository: https://github.com/timo9939/Assignment17
+
+### Gist:
